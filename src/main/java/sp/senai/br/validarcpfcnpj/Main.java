@@ -15,12 +15,12 @@ public class Main {
         
          Scanner teclado = new Scanner(System.in);
         
-        String cpf = teclado.nextLine();
+        String cnpj = teclado.nextLine();
 
-        if (CPF.validar(cpf)) {
-            System.out.println("CPF válido!");
+        if (CNPJ.validar(cnpj)) {
+            System.out.println("CNPJ válido!");
         } else {
-            System.out.println("CPF inválido!");
+            System.out.println("CNPJ inválido!");
         }
 
     	System.exit(0);
